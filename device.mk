@@ -18,7 +18,7 @@
 $(call inherit-product, device/samsung/exynos9810-common/common.mk)
 
 # Inherit proprietary files
-#$(call inherit-product, vendor/samsung/star2lte/star2lte-vendor.mk)
+$(call inherit-product, vendor/samsung/star2lte/star2lte-vendor.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)

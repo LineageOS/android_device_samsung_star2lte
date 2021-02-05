@@ -16,7 +16,8 @@
 ## Inherit from the common tree
 include device/samsung/exynos9810-common/BoardConfigCommon.mk
 
-#include vendor/samsung/star2lte/BoardConfigVendor.mk
+## Inherit from the proprietary configuration
+include vendor/samsung/star2lte/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/star2lte
 
